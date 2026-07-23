@@ -1,0 +1,147 @@
+import shop1 from "../assets/shop-1.jpg.asset.json";
+import shop2 from "../assets/shop-2.jpg.asset.json";
+import shop3 from "../assets/shop-3.jpg.asset.json";
+import shop4 from "../assets/shop-4.jpg.asset.json";
+import shop5 from "../assets/shop-5.jpg.asset.json";
+import shop6 from "../assets/shop-6.jpg.asset.json";
+import shop7 from "../assets/shop-7.jpg.asset.json";
+
+export const IMG = {
+  bag: shop1.url,
+  shelvesWide: shop2.url,
+  interiorStairs: shop3.url,
+  mensSuiting: shop4.url,
+  interiorWide: shop5.url,
+  shopkeeper: shop6.url,
+  overview: shop7.url,
+};
+
+export const COLLECTIONS = [
+  {
+    slug: "printed-lawn",
+    name: "Printed Lawn",
+    season: "Spring — Summer",
+    blurb: "Airy cotton lawn in this season's florals, geometrics, and heritage motifs. Cut to your yardage from the roll.",
+    image: IMG.shelvesWide,
+    count: "600+ designs",
+  },
+  {
+    slug: "embroidered-formals",
+    name: "Embroidered Formals",
+    season: "Wedding & Occasion",
+    blurb: "Hand-embroidered chiffon, net and organza pieces for weddings and formal evenings.",
+    image: IMG.shopkeeper,
+    count: "Curated pieces",
+  },
+  {
+    slug: "mens-suiting",
+    name: "Gentleman's Suiting",
+    season: "All Year",
+    blurb: "Blended wash-n-wear, premium cotton and winter wool blends from every trusted mill.",
+    image: IMG.mensSuiting,
+    count: "300+ shades",
+  },
+  {
+    slug: "dupattas",
+    name: "Chiffon & Silk Dupattas",
+    season: "Signature",
+    blurb: "The finishing note — printed chiffon, jamawar, banarsi silk and hand-worked pieces.",
+    image: IMG.overview,
+    count: "New every week",
+  },
+  {
+    slug: "kids",
+    name: "Kids & Family",
+    season: "Everyday",
+    blurb: "Soft cottons and durable blends for uniforms, Eid outfits and daily wear.",
+    image: IMG.interiorStairs,
+    count: "Family sizes",
+  },
+  {
+    slug: "bedsheets-home",
+    name: "Bedsheets & Home",
+    season: "Home",
+    blurb: "Cotton king and queen bedsheets, curtaining fabric and drapes for the home.",
+    image: IMG.interiorWide,
+    count: "Home essentials",
+  },
+];
+
+export const BRANDS = [
+  { name: "Gul Ahmed", note: "A festive extravaganza — full seasonal drops." },
+  { name: "Chinyere", note: "Modern printed and embroidered lawn." },
+  { name: "Al Karam", note: "Classic prints and dependable everyday fabric." },
+  { name: "Nishat Linen", note: "Signature lawn and menswear." },
+  { name: "Sapphire", note: "Contemporary embroidered pieces." },
+  { name: "Khaadi", note: "Handloom-inspired unstitched and formals." },
+  { name: "Bonanza Satrangi", note: "Vibrant printed lawn ranges." },
+  { name: "Dynasty", note: "Premium blended suiting for gentlemen." },
+  { name: "Royal Extravagance", note: "Occasion-wear formals." },
+  { name: "Charizma", note: "Statement embroidered collections." },
+  { name: "Firdous", note: "Trusted printed lawn heritage." },
+  { name: "Alkaram Studio", note: "Modern seasonal edits." },
+];
+
+export const POSTS = [
+  {
+    slug: "how-to-choose-lawn-for-summer",
+    title: "How to Choose Lawn for a Chichawatni Summer",
+    excerpt: "The right lawn is the difference between a dress you wear once and one you reach for every June. Here is how we pick ours.",
+    category: "Fabric Guide",
+    date: "12 April 2026",
+    readTime: "6 min read",
+    image: IMG.shelvesWide,
+    author: "The Usman Family",
+    body: [
+      "Every spring, three or four cartons arrive at the shop and the entire family sits down on the floor to open them. This is our favourite week of the year.",
+      "When you're choosing lawn for a Punjab summer, weight matters more than pattern. A 2/40s single-thread lawn drapes better, breathes more, and — if you take care of it — will last two seasons instead of one. Ask to feel the fabric against the light; the finer the weave, the more the sun passes through.",
+      "Prints are personal. But if you want a piece that never dates, choose small-scale florals in muted grounds — pistachio, powder pink, ivory. The bold black-ground florals photograph beautifully but tire the eye by August.",
+      "For dupattas in summer, always go one shade lighter than the shirt. Chiffon or a fine silk-cotton blend keeps the whole outfit airy.",
+    ],
+  },
+  {
+    slug: "guide-to-embroidered-formals",
+    title: "A Quiet Guide to Embroidered Formals",
+    excerpt: "Wedding season is not about the heaviest piece. It is about the piece that lets you sit down, laugh, and eat.",
+    category: "Occasion",
+    date: "28 March 2026",
+    readTime: "5 min read",
+    image: IMG.shopkeeper,
+    author: "The Usman Family",
+    body: [
+      "The first thing we tell every bride's mother who walks in: buy the piece she can move in.",
+      "Modern embroidered formals fall roughly into three families — chiffon (light, floaty, best for mehndi and evening), net over silk (structured, best for baraat), and organza (crisp, best for daytime valima). Each behaves differently under camera light.",
+      "For your gold or silver work, look at the back of the fabric. Clean, tight stitches with no loose threads mean the embroidery will survive dry cleaning. If the back looks messy, so will the front after two washes.",
+    ],
+  },
+  {
+    slug: "mens-suiting-101",
+    title: "Men's Suiting 101: A Chichawatni Primer",
+    excerpt: "Wash-n-wear, blended plus, premium cotton — a plain-language explanation of what to buy when.",
+    category: "Menswear",
+    date: "18 March 2026",
+    readTime: "4 min read",
+    image: IMG.mensSuiting,
+    author: "The Usman Family",
+    body: [
+      "Every man in Chichawatni owns at least one wash-n-wear shalwar kameez. But not all wash-n-wear is the same.",
+      "The polyester-cotton blends we stock come in three grades. The everyday grade holds crease well and washes at home. The 'premium' grade — Dynasty, Royal Extravagance — has a softer hand and stays looking new for two seasons of Eid photographs.",
+      "For a summer wedding, ask us for a light 2/60s premium cotton in ivory or dusk blue. It costs a little more per metre; it wears a lot better under a sherwani.",
+    ],
+  },
+  {
+    slug: "caring-for-your-fabric",
+    title: "How to Care for the Fabric You Just Bought",
+    excerpt: "Small habits that make a five-metre piece feel new for two full seasons.",
+    category: "Care",
+    date: "02 March 2026",
+    readTime: "3 min read",
+    image: IMG.interiorWide,
+    author: "The Usman Family",
+    body: [
+      "Wash printed lawn separately for the first two washes. Cold water, mild detergent, inside-out. This alone doubles the life of the print.",
+      "Never hang wet embroidered fabric on a metal hanger. The weight pulls the shoulder seam out of shape. Lay flat on a towel to dry.",
+      "For chiffon dupattas, fold — do not hang. Chiffon stretches under its own weight.",
+    ],
+  },
+];
