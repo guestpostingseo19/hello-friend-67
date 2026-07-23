@@ -70,7 +70,7 @@ function PostPage() {
         <div className="container-editorial py-14 md:py-20">
           <div className="max-w-2xl mx-auto space-y-6 text-lg leading-[1.7] text-foreground/85">
             <p className="text-2xl md:text-3xl font-serif italic text-primary leading-snug">{post.excerpt}</p>
-            {post.body.map((para, i) => <p key={i}>{para}</p>)}
+            {post.body.map((para: string, i: number) => <p key={i}>{para}</p>)}
           </div>
         </div>
       </article>
