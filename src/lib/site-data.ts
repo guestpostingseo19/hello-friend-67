@@ -1,19 +1,11 @@
-import shop1 from "../assets/shop-1.jpg.asset.json";
-import shop2 from "../assets/shop-2.jpg.asset.json";
-import shop3 from "../assets/shop-3.jpg.asset.json";
-import shop4 from "../assets/shop-4.jpg.asset.json";
-import shop5 from "../assets/shop-5.jpg.asset.json";
-import shop6 from "../assets/shop-6.jpg.asset.json";
-import shop7 from "../assets/shop-7.jpg.asset.json";
-
 export const IMG = {
-  bag: shop7.url,
-  shelvesWide: shop2.url,
-  interiorStairs: shop3.url,
-  mensSuiting: shop5.url,
-  interiorWide: shop6.url,
-  shopkeeper: shop4.url,
-  overview: shop1.url,
+  bag: "/images/shop-7.jpg",
+  shelvesWide: "/images/shop-2.jpg",
+  interiorStairs: "/images/shop-3.jpg",
+  mensSuiting: "/images/shop-5.jpg",
+  interiorWide: "/images/shop-6.jpg",
+  shopkeeper: "/images/shop-4.jpg",
+  overview: "/images/shop-1.jpg",
 };
 
 export const COLLECTIONS = [
