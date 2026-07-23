@@ -7,13 +7,13 @@ import shop6 from "../assets/shop-6.jpg.asset.json";
 import shop7 from "../assets/shop-7.jpg.asset.json";
 
 export const IMG = {
-  bag: shop1.url,
+  bag: shop7.url,
   shelvesWide: shop2.url,
   interiorStairs: shop3.url,
-  mensSuiting: shop4.url,
-  interiorWide: shop5.url,
-  shopkeeper: shop6.url,
-  overview: shop7.url,
+  mensSuiting: shop5.url,
+  interiorWide: shop6.url,
+  shopkeeper: shop4.url,
+  overview: shop1.url,
 };
 
 export const COLLECTIONS = [
